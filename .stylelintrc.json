@@ -1,5 +1,6 @@
 {
   "extends": ["stylelint-config-twbs-bootstrap"],
   "reportInvalidScopeDisables": true,
-  "reportNeedlessDisables": true
+  "reportNeedlessDisables": true,
+  "rules": { "selector-no-qualifying-type": null }
 }
