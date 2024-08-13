@@ -1,5 +1,5 @@
 {
   "!(*.min).{css,scss}": ["stylelint --fix", "prettier --write"],
   "!(*.min).js": ["eslint --fix", "prettier --write"],
-  "*.{json,md}": "prettier --color --write"
+  "*.{json,md,yaml,yml}": "prettier --color --write"
 }

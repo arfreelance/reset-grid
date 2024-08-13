@@ -23,7 +23,7 @@
     "prepare": "husky",
     "test:eslint": "eslint --color --fix --no-error-on-unmatched-pattern ./**/*.js",
     "test:package": "npx npm-package-json-lint --allowEmptyTargets --configFile .packagerc.json .",
-    "test:prettier": "prettier --color --log-level=error --no-error-on-unmatched-pattern --write ./**/*.{css,js,json,md,scss}",
+    "test:prettier": "prettier --color --log-level=error --no-error-on-unmatched-pattern --write ./**/*.{css,js,json,md,scss,yaml,yml}",
     "test:stylelint": "stylelint --color --fix --allow-empty-input ./**/*.{css,scss}",
     "test:parallel": "run-p test:eslint test:stylelint",
     "test": "run-s test:package test:parallel test:prettier"
