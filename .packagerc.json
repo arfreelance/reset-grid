@@ -1,0 +1,29 @@
+{
+  "extends": "@stylelint/npm-package-json-lint-config",
+  "rules": {
+    "require-engines": "off",
+    "require-funding": "off",
+    "valid-values-author": "off",
+    "prefer-property-order": [
+      "error",
+      [
+        "name",
+        "version",
+        "private",
+        "description",
+        "author",
+        "license",
+        "keywords",
+        "homepage",
+        "repository",
+        "bugs",
+        "main",
+        "type",
+        "scripts",
+        "dependencies",
+        "devDependencies",
+        "npmpackagejsonlint"
+      ]
+    ]
+  }
+}
