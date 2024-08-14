@@ -1,5 +1,9 @@
+/*! reset-grid | MIT License | github.com/arfreelance/reset-grid */
+
 html {
   line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
   text-size-adjust: 100%;
 }
 
@@ -9,11 +13,11 @@ body {
     system-ui,
     -apple-system,
     "Segoe UI",
-    Roboto,
+    roboto,
     "Helvetica Neue",
     "Noto Sans",
     "Liberation Sans",
-    Arial,
+    arial,
     sans-serif,
     "Apple Color Emoji",
     "Segoe UI Emoji",
@@ -37,7 +41,7 @@ hr {
 }
 
 pre {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+  font-family: sfmono-regular, menlo, monaco, consolas, "Liberation Mono",
     "Courier New", monospace;
   font-size: 1em;
 }
@@ -45,7 +49,7 @@ pre {
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+  font-family: sfmono-regular, menlo, monaco, consolas, "Liberation Mono",
     "Courier New", monospace;
   font-size: 1em;
 }
@@ -55,7 +59,7 @@ a {
 }
 
 abbr[title] {
-  text-decoration: underline;
+  -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   border-bottom: none;
 }
@@ -114,6 +118,8 @@ button,
 [type="button"],
 [type="reset"],
 [type="submit"] {
+  -webkit-appearance: button;
+  -moz-appearance: button;
   appearance: button;
 }
 
@@ -165,16 +171,20 @@ textarea {
 }
 
 [type="search"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
   appearance: textfield;
   outline-offset: -2px;
 }
 
 [type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
   appearance: none;
 }
 
 ::-webkit-file-upload-button {
   font: inherit;
+  -webkit-appearance: button;
   appearance: button;
 }
 

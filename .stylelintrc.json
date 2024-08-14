@@ -1,6 +1,12 @@
 {
-  "extends": ["stylelint-config-twbs-bootstrap"],
+  "extends": ["stylelint-config-standard-scss"],
   "reportInvalidScopeDisables": true,
   "reportNeedlessDisables": true,
-  "rules": { "selector-no-qualifying-type": null }
+  "rules": {
+    "at-rule-no-vendor-prefix": null,
+    "media-feature-name-no-vendor-prefix": null,
+    "property-no-vendor-prefix": null,
+    "selector-no-vendor-prefix": null,
+    "value-no-vendor-prefix": null
+  }
 }
